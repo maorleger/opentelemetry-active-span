@@ -1,0 +1,21 @@
+{
+  "name": "validation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "prestart": "npm run build",
+    "build": "tsc",
+    "prebuild": "rimraf dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@opentelemetry/api": "^1.0.3",
+    "@opentelemetry/node": "^0.24.0",
+    "@opentelemetry/tracing": "^0.24.0",
+    "@types/node": "^16.9.6"
+  }
+}
